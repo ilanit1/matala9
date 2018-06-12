@@ -94,8 +94,5 @@ template <typename T> TestCase& TestCase::check_output(T a,string b) {
 	return *this;
 }
 
-void TestCase::print(){
 
-	os << name << ": "<< fail << " failed, "<< pass << " passed, "<< pass+fail << " total."<<endl;
-}
 
